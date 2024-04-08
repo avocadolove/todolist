@@ -16,6 +16,8 @@
 		831779AC2BA0455B003C15E2 /* todolistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831779AB2BA0455B003C15E2 /* todolistTests.swift */; };
 		831779B62BA0455B003C15E2 /* todolistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831779B52BA0455B003C15E2 /* todolistUITests.swift */; };
 		831779B82BA0455B003C15E2 /* todolistUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831779B72BA0455B003C15E2 /* todolistUITestsLaunchTests.swift */; };
+		831779C52BA05321003C15E2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831779C42BA05321003C15E2 /* TableViewController.swift */; };
+		831779C72BA41E30003C15E2 /* TaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831779C62BA41E30003C15E2 /* TaskItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		831779B12BA0455B003C15E2 /* todolistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todolistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		831779B52BA0455B003C15E2 /* todolistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todolistUITests.swift; sourceTree = "<group>"; };
 		831779B72BA0455B003C15E2 /* todolistUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todolistUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		831779C42BA05321003C15E2 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		831779C62BA41E30003C15E2 /* TaskItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				831779942BA04557003C15E2 /* AppDelegate.swift */,
 				831779962BA04557003C15E2 /* SceneDelegate.swift */,
 				831779982BA04557003C15E2 /* ViewController.swift */,
+				831779C42BA05321003C15E2 /* TableViewController.swift */,
+				831779C62BA41E30003C15E2 /* TaskItem.swift */,
 				8317799A2BA04557003C15E2 /* Main.storyboard */,
 				8317799D2BA0455A003C15E2 /* Assets.xcassets */,
 				8317799F2BA0455A003C15E2 /* LaunchScreen.storyboard */,
@@ -259,8 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				831779992BA04557003C15E2 /* ViewController.swift in Sources */,
+				831779C72BA41E30003C15E2 /* TaskItem.swift in Sources */,
 				831779952BA04557003C15E2 /* AppDelegate.swift in Sources */,
 				831779972BA04557003C15E2 /* SceneDelegate.swift in Sources */,
+				831779C52BA05321003C15E2 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +457,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,6 +465,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.avokado.todolist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -476,6 +488,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -483,6 +496,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.avokado.todolist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
